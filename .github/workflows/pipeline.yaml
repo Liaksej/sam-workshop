@@ -190,7 +190,6 @@ jobs:
             --s3-bucket ${TESTING_ARTIFACTS_BUCKET} \
             --no-fail-on-empty-changeset \
             --role-arn ${TESTING_CLOUDFORMATION_EXECUTION_ROLE}
-            --config-env dev
 
   integration-test:
     if: github.ref == 'refs/heads/main'
