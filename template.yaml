@@ -19,7 +19,7 @@ Resources:
       Runtime: nodejs20.x
       AutoPublishAlias: live
       DeploymentPreference:
-        Type: Canary10Percent5Minute
+        Type: Canary10Percent5Minutes
       Architectures:
         - x86_64
       Events:
